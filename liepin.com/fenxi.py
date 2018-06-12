@@ -6,8 +6,9 @@
 # @File : fenxi.py 
 # @Software: PyCharm
 
-import jieba.analyse
 import xlwt  # 写入Excel表的库
+
+import jieba.analyse  # pip install jieba
 
 
 def analyse(name, proName):

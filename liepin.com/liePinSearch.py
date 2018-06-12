@@ -7,15 +7,18 @@
 # @Software: PyCharm
 
 
-import requests
-from requests.exceptions import RequestException
-from bs4 import BeautifulSoup
 import csv
-from multiprocessing import Pool
-import headers
-import bs4
 import time
+from multiprocessing import Pool
+
+import bs4
+import requests
+from bs4 import BeautifulSoup
+from requests.exceptions import RequestException
+
 import fenxi
+import headers
+
 
 def get_html_text(url):
     try:
